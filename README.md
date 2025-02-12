@@ -12,14 +12,14 @@
 - **Intuitive, Child-Friendly UI** – Simple controls for a smooth creative experience.
 - **Seamless File Management** – Save and export artwork in PNG, JPEG, or PDF formats.
 
-## 🏗 Tech Stack
+## 🏷 Tech Stack
 - **Frontend UI:** PyQt5 (for web version)
 - **Computer Vision:** OpenCV, MediaPipe
 - **Backend Processing:** NumPy, Matplotlib
 - **Rendering Engine:** Qt Framework
 - **Deployment:** Docker (optional for web hosting)
 
-## 📥 Installation & Setup
+## 👝 Installation & Setup
 ### 📌 Prerequisites
 Ensure you have **Python 3.8+** installed along with dependencies.
 
@@ -33,7 +33,7 @@ pip install opencv-python mediapipe numpy PyQt5 matplotlib
 python main.py
 ```
 
-## 📂 Project Structure
+## 📺 Project Structure
 - `main.py` – Core application file
 - `ui/` – UI components built using PyQt5
 - `vision/` – Computer vision processing using OpenCV & MediaPipe
@@ -50,13 +50,33 @@ python main.py
 6. **File Management** – Save, load, and export features for user convenience.
 
 ## 🔄 Flowchart
-<img src="">
+<img src="screenshots/flowchart.png" width="700px">
 
 ## 📸 Image Gallery
-*(Add images of the working application here)*
+<table>
+  <tr>
+    <td><img src="screenshots/usersnapshot.png" width="400px"><br>🎨 Swipe & Sketch – User Snapshot!</td>
+    <td><img src="screenshots/fingertip.png" width="400px"><br>🖐 Magic at Your Fingertips – Gesture Detection!</td>
+    <td><img src="screenshots/code.png" width="400px"><br>💻 - Code Wizardry – Fingertip Detection Code!</td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/fileoptions.png" width="400px"><br>📁 Art Vault – Save, Load, & Export!</td>
+    <td><img src="screenshots/userview.png" width="400px"><br>👀 See What Users See – User View!</td>
+    <td><img src="screenshots/realtimedraw.png" width="400px"><br>🎥 Live Action – Real-Time Drawing!</td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/tools.png" width="400px"><br>🛠 Power Tools – Art Creation Suite!</td>
+    <td><img src="screenshots/brush.png" width="400px"><br>🖌️ Brush It Up – Customize Your Strokes!</td>
+    <td><img src="screenshots/imageselection.png" width="400px"><br>🎮 Image Magic – Pick & Transform!</td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/shapeselection.png" width="400px"><br>🔺 Shapes & Creativity – Choose Your Tools!</td>
+    <td><img src="screenshots/brushsize.png" width="400px"><br>📏 Brush Like a Pro – Size Adjustments!</td>
+    <td><img src="screenshots/colors.png" width="400px"><br>🌈 Colors Everywhere – Pick Your Palette!</td>
+  </tr>
+</table>
 
 ## 🎯 Contributions
-We welcome contributions! **To contribute:**
 1. Fork the repo 🍴
 2. Clone the project (`git clone https://github.com/your-repo.git`)
 3. Create a new branch (`git checkout -b feature-name`)
@@ -81,3 +101,4 @@ This project is licensed under the **MIT License**
 - **NumPy Documentation:** [https://numpy.org/doc/](https://numpy.org/doc/)
 - **Matplotlib Docs:** [https://matplotlib.org/stable/contents.html](https://matplotlib.org/stable/contents.html)
 - **Docker Guide:** [https://docs.docker.com/](https://docs.docker.com/)
+
